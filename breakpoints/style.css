@@ -1,0 +1,102 @@
+/*Small devices (landscape phones)*/
+/* @media (min-width: 576px) {
+  body {
+    background: red;
+  }
+} */
+
+/*Medium  devices (tablets, 768px e superior)*/
+/* @media (min-width: 768px) {
+  body {
+    background: rgb(0, 255, 55);
+  }
+} */
+
+
+/*Large  devices (desktops, 992px e superior)*/
+/* @media (min-width: 992px) {
+  body {
+    background: rgb(0, 47, 255);
+  }
+} */
+
+
+/*Extra Large  devices (large desktops, 1200px e superior)*/
+/* @media (min-width: 1200px) {
+  body {
+    background: rgb(238, 255, 0);
+  }
+} */
+
+/********************************************************************/
+
+/*Small devices (landscape phones)*/
+/* de 0 ate 575----------------------------*/
+/* @media (max-width: 575px) {
+  body {
+    background: gray;
+  }
+} */
+
+/*Medium  devices (tablets, 768px e superior)*/
+/* @media (max-width: 768px) {
+  body {
+    background: rgb(0, 255, 55);
+  }
+} */
+
+
+/*Large  devices (desktops, 992px e superior)*/
+/* @media (max-width: 992px) {
+  body {
+    background: rgb(0, 47, 255);
+  }
+} */
+
+
+/*Extra Large  devices (large desktops, 1200px e superior)*/
+/* @media (max-width: 1200px) {
+  body {
+    background: rgb(238, 255, 0);
+  }
+} */
+
+
+
+/*Extra Small devices (portrait phones,less than 576px)*/
+/* de 0 ate 575----------------------------*/
+@media (max-width: 575.98px) {
+  body {
+    background: gray;
+  }
+}
+
+/*Small  devices (landscape,576 and 767.98px )*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    background: rgb(0, 255, 55);
+  }
+}
+
+
+/* Medium devices (tablets, 768px and 991.98px e superior)*/
+@media (min-width: 768px)and (max-width: 991.98px) {
+  body {
+    background: rgb(0, 47, 255);
+  }
+}
+
+
+/*Extra Large  devices (large desktops, 1200px e superior)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    background: rgb(238, 255, 0);
+  }
+}
+
+
+@media (min-width: 1200px) {
+  body {
+    background: rgb(68, 68, 64);
+  }
+}
